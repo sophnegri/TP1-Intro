@@ -54,8 +54,10 @@ do
 		4)
 			if [ -f "$RUTA_SALIDA" ]
 			then
+#el -n significa número, el -r significa ordenar en reversa (de mayor a menor)
+#el head -n 10 ordena los 10 primeros nombres
 				sort -nrk 5 "$RUTA_SALIDA" | head -n 10
-#el sort -k 4 los ordena por la cuarta columna ya que estan separados por espacios
+#el sort -k 5 los ordena por la cuarta columna ya que estan separados por espacios
 			else
  				echo "El archivo no existe"
 			fi
