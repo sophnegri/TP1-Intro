@@ -34,8 +34,8 @@ do
 		1)
 			echo "Creando entorno...."
 			mkdir -p $HOME/EPNro1/{entrada,salida,procesado}
-			cp consolidar.sh $HOME/EPNro1/
-			cp archivoentrada.txt "$HOME/EPNro1/entrada/"
+			cp ./consolidar.sh $HOME/EPNro1/
+			cp ./archivoentrada.txt $HOME/EPNro1/entrada/
 			echo "entorno creado correctamente!"
 			;;
 		2)
