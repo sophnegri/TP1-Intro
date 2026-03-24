@@ -63,10 +63,12 @@ do
 			fi
 			;;
 		5)
-			echo "Ingrese su numero de padron: "
-			read padron
-
-			grep "$padron" "$RUTA_SALIDA"
+			if [ -f "$RUTA_SALIDA" ]
+			then
+				echo "Ingrese su numero de padron: "
+				read padron
+				grep "^$padron" "$RUTA_SALIDA" || echo "Padrón no encontrado"
+			fi
 			;;
 		6)
 			exit 0
