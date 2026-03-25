@@ -15,7 +15,7 @@ Este trabajo consiste en un script en Bash que permite gestionar archivos median
 ## Estructura de carpetas
 
 ```
-tp_intro/
+EPNro1/
  ├── entrada/
  ├── salida/
  └── procesado/
