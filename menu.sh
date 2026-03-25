@@ -60,7 +60,7 @@ else
 
 					sort -nrk 5 "$RUTA_SALIDA" | head -n 10
 
-	#el sort -k 5 los ordena por la cuarta columna ya que estan separados por espacios
+	#el sort -k 5 los ordena por la quinta columna ya que estan separados por espacios
 
 				else
 	 				echo "El archivo no existe"
